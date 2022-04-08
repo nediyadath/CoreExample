@@ -1,0 +1,11 @@
+﻿@model CoreWebAppExample.Models.Hospital
+
+<table>
+    <tr>
+        <td>@Html.HiddenFor(e=>e.name)
+        @Html.HiddenFor(e=>e.id)
+        @Html.DisplayFor(e=>e.name)
+        </td>
+        <td>@Html.CheckBoxFor(e=>e.check)</td>
+    </tr>
+</table>

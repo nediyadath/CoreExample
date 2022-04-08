@@ -1,0 +1,9 @@
+﻿@model IEnumerable<CoreWebAppExample.Models.Hospital>
+
+@using(Html.BeginForm()) { 
+    @Html.EditorForModel()
+    <input type="submit" class="btn btn-primary" />
+}
+<div>
+    @ViewBag.Display
+</div>
